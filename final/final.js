@@ -68,7 +68,7 @@ productList.addEventListener("click",function(e){
 
     axios.post(`https://hexschoollivejs.herokuapp.com/api/livejs/v1/customer/${api_path}/carts`,{
         "data":{
-            "productID":productId,
+            "productId":productId,
             "quantity":numCheck
         }
     }).then(function(response){
